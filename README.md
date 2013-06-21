@@ -367,9 +367,11 @@ body {
 
 7) Study how to use first-child, last-child, nth-child. This will help you put styles on navigation links. 
 
-http://www.w3schools.com/cssref/sel_firstchild.asp
-http://www.w3schools.com/cssref/sel_last-child.asp
-http://www.w3schools.com/cssref/sel_nth-child.asp
+**References:**
+***
+* http://www.w3schools.com/cssref/sel_firstchild.asp
+* http://www.w3schools.com/cssref/sel_last-child.asp
+* http://www.w3schools.com/cssref/sel_nth-child.asp
 
 **Example (HTML code):**
 ```html
