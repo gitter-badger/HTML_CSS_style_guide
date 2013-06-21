@@ -81,7 +81,20 @@ In the example below, notice how img, h1, ul are indented inside their parent el
 
 5) Validate your HTML codes thru http://validator.w3.org. 
 
-6) Use XHTML 1.0 Transitional doctype for now. 
+6) Use HTML5 to be able to use CSS frameworks such as Twitter Bootstrap, Kube CSS etc.
+
+**HTML 5 code example:**
+```html
+<!DOCTYPE HTML>
+<html>
+     <head>
+          <title>Sample HTML5 page</title>
+     </head>
+     <body>
+         <h1>Hello everyone!</h1>
+     </body>
+</html>
+```
 
 Common errors in validation are related to label and placeholder attributes. For label tags, make sure that the ‘for’ it is referring/pointing to a specific element id of the input element attached to the label. For example:
 ***
