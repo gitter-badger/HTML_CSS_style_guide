@@ -1,7 +1,7 @@
 Pointers to Remember When Coding HTML:
 =====================================
 
-1) Indent your html codes properly, consider parent-child relationship, (use tabs for indention).
+***1) Indent your html codes properly, consider parent-child relationship, (use tabs for indention).***
 
 In the example below, notice how img, h1, ul are indented inside their parent element (div#header). Same concept applies to the li’s of ul.
 
@@ -29,7 +29,7 @@ In the example below, notice how img, h1, ul are indented inside their parent el
 </div>
 ```
 
-2) Use lower case for HTML and CSS tags.
+***2) Use lower case for HTML and CSS tags.***
 
 **Bad Coding:**
 ```html
@@ -41,7 +41,7 @@ In the example below, notice how img, h1, ul are indented inside their parent el
 <div id=”header”></div>
 ```
 
-3) Use names, id names and class names that are readable, descriptive and easy to understand.
+***3) Use names, id names and class names that are readable, descriptive and easy to understand.***
 
 **Bad Coding:**
 ```html
@@ -67,7 +67,7 @@ In the example below, notice how img, h1, ul are indented inside their parent el
 
 > *Notice how &lt;label&gt; tag is used instead of &lt;p&gt;.*
 
-4) Properly close HTML elements. The example below shows how to close an input element:
+***4) Properly close HTML elements. The example below shows how to close an input element:***
 
 **Bad Coding:**
 ```html
@@ -79,9 +79,9 @@ In the example below, notice how img, h1, ul are indented inside their parent el
 <input type=”submit”>
 ```
 
-5) Validate your HTML codes thru http://validator.w3.org. 
+***5) Validate your HTML codes thru http://validator.w3.org.***
 
-6) Use HTML5 to be able to use CSS frameworks such as Twitter Bootstrap, Kube CSS etc.
+***6) Use HTML5 to be able to use CSS frameworks such as Twitter Bootstrap, Kube CSS etc.***
 
 **HTML 5 code example:**
 ```html
@@ -104,7 +104,7 @@ Common errors in validation are related to label and placeholder attributes. For
 <input type=”text” id=”first_name” name=”first_name” placeholder=”Your first name”>
 ```
 
-7) Use id for elements that are unique and class for elements that are usually repeated/reused.
+***7) Use id for elements that are unique and class for elements that are usually repeated/reused.***
 
 **Bad Coding:**
 ```html
@@ -135,9 +135,9 @@ Common errors in validation are related to label and placeholder attributes. For
 </div>
 ```
 
-8) Avoid using style tags in your HTML code. (e.g. &lt;br&gt;, &lt;b&gt;, &lt;strong&gt;, &lt;u&gt;, &lt;i&gt;, &lt;hr /&gt;). Maximize CSS.
+***8) Avoid using style tags in your HTML code. (e.g. &lt;br&gt;, &lt;b&gt;, &lt;strong&gt;, &lt;u&gt;, &lt;i&gt;, &lt;hr /&gt;). Maximize CSS.***
 
-9) Make sure to use heading tags properly. The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings. &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading. 
+***9) Make sure to use heading tags properly. The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings. &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.***
 
 **Bad Coding:**
 ```html
@@ -163,7 +163,7 @@ Common errors in validation are related to label and placeholder attributes. For
 </div>
 ```
 
-10) Span is an inline element. It is usually used for styling texts inside block elements like p and heading tags. It must not be use as container of block elements.
+***10) Span is an inline element. It is usually used for styling texts inside block elements like p and heading tags. It must not be use as container of block elements.***
 
 **Bad Coding:**
 ```html
@@ -177,7 +177,7 @@ Common errors in validation are related to label and placeholder attributes. For
 <p><span class=”blue”>This is village88.com<span>, where I learn how to code faster and cleaner.</p>
 ```
 
-11) HTML has block elements that have default css properties such as padding and margin and will always move to the next line such as div, h1, h2, h3, h4, h5, h6, p, table, form, frameset, ul, ol. Meanwhile, inline elements such as a, img, input, span and textarea are displayed in one line but cannot be placed directly inside the body element, they must be within block elements.
+***11) HTML has block elements that have default css properties such as padding and margin and will always move to the next line such as div, h1, h2, h3, h4, h5, h6, p, table, form, frameset, ul, ol. Meanwhile, inline elements such as a, img, input, span and textarea are displayed in one line but cannot be placed directly inside the body element, they must be within block elements.***
 
 **Bad Coding:**
 ```html
@@ -217,16 +217,16 @@ Common errors in validation are related to label and placeholder attributes. For
 </body>
 ```
 
-12) It is better to create a separate CSS file for your page. Put all the styles on that .css file rather that putting the styles inline to the HTML elements.
+***12) It is better to create a separate CSS file for your page. Put all the styles on that .css file rather that putting the styles inline to the HTML elements.***
 
 **Bad Coding:**
 ```html
 <div id=”header” style=”border:1px solid #000; margin-top: 15px;”></div>
 ```
 
-13) For reserved characters in HTML, visit http://www.w3schools.com/tags/ref_entities.asp. These can be used for symbols like » (&raquo).
+***13) For reserved characters in HTML, visit http://www.w3schools.com/tags/ref_entities.asp. These can be used for symbols like » (&raquo).***
 
-14) Tables should only be used for data presentation. It should not be used to layout a form nor for designing a web page.
+***14) Tables should only be used for data presentation. It should not be used to layout a form nor for designing a web page.***
 
 **Proper table format:**
 ```html
@@ -270,7 +270,7 @@ Common errors in validation are related to label and placeholder attributes. For
 Pointers to remember when coding CSS:
 ======================================
 
-1) The CSS codes below help you achieve cross browser design and save lines of css codes. 
+***1) The CSS codes below help you achieve cross browser design and save lines of css codes.***
 ```css
 /*reset default styling of HTML block elements*/
 * {
@@ -291,7 +291,7 @@ body {
 }
 ```
 
-2) Minimize class. Practice chaining instead of adding another class to put styles on an element. 
+***2) Minimize class. Practice chaining instead of adding another class to put styles on an element.*** 
 ```css
 #main_content h1 {
      color: #abcdef;
@@ -309,7 +309,7 @@ body {
 ```
 > Add style of the h1 element by chaining it with #main_content. Same with p and h2 inside div info_box. 
 
-3) Avoid negative pixels in your CSS.
+***3) Avoid negative pixels in your CSS.***
 
 **Avoid:**
 ```css
@@ -318,7 +318,7 @@ body {
      padding: -2px;
 }
 ```
-4. Avoid using position:absolute, top, left, bottom, right. Use float instead.
+***4. Avoid using position:absolute, top, left, bottom, right. Use float instead.***
 
 **Bad Coding:**
 ```css
@@ -336,7 +336,7 @@ body {
 }
 ```
 
-5) Use clear:both; after floating two or more division inside same container.
+***5) Use clear:both; after floating two or more division inside same container.***
 
 **HTML Code:**
 ```html
@@ -367,7 +367,7 @@ body {
 ```
 > In the CSS codes above, header and navigation are floated to the left. Observe how the class clear is used. 
 
-6) Minimize the use of padding. Use margin instead. 
+***6) Minimize the use of padding. Use margin instead. ***
 
 **Good Coding:**
 ```css
@@ -378,7 +378,7 @@ body {
 }
 ```
 
-7) Study how to use first-child, last-child, nth-child. This will help you put styles on navigation links. 
+***7) Study how to use first-child, last-child, nth-child. This will help you put styles on navigation links.*** 
 
 **References:**
 ***
