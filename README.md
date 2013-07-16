@@ -3,28 +3,28 @@ Pointers to Remember When Coding HTML:
 
 ***1) Indent your html codes properly, consider parent-child relationship, (use tabs for indention).***
 
-In the example below, notice how img, h1, ul are indented inside their parent element (div#header). Same concept applies to the li’s of ul.
+In the example below, notice how img, h1, ul are indented inside their parent element (div#header). Same concept applies to the li's of ul.
 
 **Bad Coding:**
 ```html
-<div id=”header”>
-<img src=”logo.png” alt=”Logo” />
+<div id="header">
+<img src="logo.png" alt="Logo" />
      <h1>Sample Website</h1>
 <ul>
-<li><a href=”“>My Profile</a></li>
-<li><a href=”“>Logout</a></li>
+<li><a href="">My Profile</a></li>
+<li><a href="">Logout</a></li>
 </ul>
 </div>
 ```
 
 **Good Coding:**
 ```html
-<div id=”header”>
-     <img src=”logo.png” alt=”Logo” />
+<div id="header">
+     <img src="logo.png" alt="Logo" />
      <h1>Sample Website</h1>
      <ul>
-          <li><a href=”“>My Profile</a></li>
-          <li><a href=”“>Logout</a></li>
+          <li><a href="">My Profile</a></li>
+          <li><a href="">Logout</a></li>
      </ul>
 </div>
 ```
@@ -33,34 +33,34 @@ In the example below, notice how img, h1, ul are indented inside their parent el
 
 **Bad Coding:**
 ```html
-<DIV ID=”HEADER”></DIV>
+<DIV ID="HEADER"></DIV>
 ```
 
 **Good Coding:**
 ```html
-<div id=”header”></div>
+<div id="header"></div>
 ```
 
 ***3) Use names, id names and class names that are readable, descriptive and easy to understand.***
 
 **Bad Coding:**
 ```html
-<div id=“division_x”>
-     <form id=“542_xyz” action=””>
+<div id="division_x">
+     <form id="542_xyz" action="">
           <p>First Name</p>
-          <input type=“fname”></input>
-          <input type=“submit”>
+          <input type="fname"></input>
+          <input type="submit">
      </form>
 </div>
 ```
 
 **Good Coding:**
 ```html
-<div id=“right_content”>
-     <form id=“registration” action=“process.php”>
-          <label for=“first_name”>First Name:</label>
-          <input type=“text” name=“first_name” id=“first_name”>
-          <input type=“submit”>
+<div id="right_content">
+     <form id="registration" action="process.php">
+          <label for="first_name">First Name:</label>
+          <input type="text" name="first_name" id="first_name">
+          <input type="submit">
      </form>
 </div>
 ```
@@ -71,12 +71,12 @@ In the example below, notice how img, h1, ul are indented inside their parent el
 
 **Bad Coding:**
 ```html
-<input type=”submit”></input>
+<input type="submit"></input>
 ```
 
 **Good Coding:**
 ```html
-<input type=”submit”>
+<input type="submit">
 ```
 
 ***5) Validate your HTML codes thru http://validator.w3.org.***
@@ -85,7 +85,7 @@ In the example below, notice how img, h1, ul are indented inside their parent el
 
 **HTML 5 code example:**
 ```html
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
      <head>
           <title>Sample HTML5 page</title>
@@ -96,24 +96,24 @@ In the example below, notice how img, h1, ul are indented inside their parent el
 </html>
 ```
 
-Common errors in validation are related to label and placeholder attributes. For label tags, make sure that the ‘for’ it is referring/pointing to a specific element id of the input element attached to the label. For example:
+Common errors in validation are related to label and placeholder attributes. For label tags, make sure that the 'for' it is referring/pointing to a specific element id of the input element attached to the label. For example:
 ***
 
 ```html
-<label for=”first_name”></label>
-<input type=”text” id=”first_name” name=”first_name” placeholder=”Your first name”>
+<label for="first_name"></label>
+<input type="text" id="first_name" name="first_name" placeholder="Your first name">
 ```
 
 ***7) Use id for elements that are unique and class for elements that are usually repeated/reused.***
 
 **Bad Coding:**
 ```html
-<div id=”main_content”>
-     <div id=”info_box”>
+<div id="main_content">
+     <div id="info_box">
           <h1>My essay</h1>
           <p>This is a simple paragraph, some text here.</p>
      </div>
-     <div id=”info_box”>
+     <div id="info_box">
           <h1>My essay</h1>
           <p>This is a simple paragraph, some text here.</p>
      </div>
@@ -122,13 +122,13 @@ Common errors in validation are related to label and placeholder attributes. For
 
 **Good Coding:**
 ```html
-<div id=”main_content”>
+<div id="main_content">
      <h1>Articles</h1>
-     <div class=”info_box”>
+     <div class="info_box">
           <h2>My essay</h1>
           <p>This is a simple paragraph, some text here.</p>
      </div>
-     <div class=”info_box”>
+     <div class="info_box">
           <h2>My Codes</h1>
           <p>This is a simple paragraph, some text here.</p>
      </div>
@@ -141,7 +141,7 @@ Common errors in validation are related to label and placeholder attributes. For
 
 **Bad Coding:**
 ```html
-<div id=”tools”>
+<div id="tools">
      <p>Automotive Tools</p> 
      <ul>     
           <li>Wrenches</li>
@@ -153,7 +153,7 @@ Common errors in validation are related to label and placeholder attributes. For
 
 **Good Coding:**
 ```html
-<div id=”tools”>
+<div id="tools">
      <h2>Automotive Tools</h1>
      <ul>
           <li>Wrenches</li>
@@ -167,14 +167,14 @@ Common errors in validation are related to label and placeholder attributes. For
 
 **Bad Coding:**
 ```html
-<h2>My <span class=”red”>essay</h2></span>
+<h2>My <span class="red">essay</h2></span>
 <span><p>This is village88.com, lessons are very good and I learn how to code faster.</p></span>
 ```
 
 **Good Coding:**
 ```html
-<h2>My <span class=”red”>essay</span></h2>
-<p><span class=”blue”>This is village88.com<span>, where I learn how to code faster and cleaner.</p>
+<h2>My <span class="red">essay</span></h2>
+<p><span class="blue">This is village88.com<span>, where I learn how to code faster and cleaner.</p>
 ```
 
 ***11) HTML has block elements that have default css properties such as padding and margin and will always move to the next line such as div, h1, h2, h3, h4, h5, h6, p, table, form, frameset, ul, ol. Meanwhile, inline elements such as a, img, input, span and textarea are displayed in one line but cannot be placed directly inside the body element, they must be within block elements.***
@@ -182,35 +182,35 @@ Common errors in validation are related to label and placeholder attributes. For
 **Bad Coding:**
 ```html
 <body>
-     <a href=”“>Home Page/a>
-     <a href=”“>My Profile</a>
-     <a href=”“>Logout/a>
+     <a href="">Home Page/a>
+     <a href="">My Profile</a>
+     <a href="">Logout/a>
      <span>My Advise</span>
      <span>Hello Village88.com student, always follow clean coding</span>
      <p>Leave reply</p>
-     <textarea name=”” id=”” cols=”30” rows=”10”></textarea>
-     <input type=”submit” />
+     <textarea name="" id="" cols="30" rows="10"></textarea>
+     <input type="submit" />
 </body>
 ```
 
 **Good Coding:**
 ```html
 <body>
-     <div id=”wrapper”>
-          <div id=”navigation”>
+     <div id="wrapper">
+          <div id="navigation">
                <ul>
-                    <li><a href=”“>Home Page</a></li>
-                    <li><a href=”“>My Profile</a></li>
-                    <li><a href=”“>Logout</a></li>
+                    <li><a href="">Home Page</a></li>
+                    <li><a href="">My Profile</a></li>
+                    <li><a href="">Logout</a></li>
               </ul>
           </div>
-          <div id=”advise_reply”>
+          <div id="advise_reply">
                <h2>My Advise</h2>
                <p>Hello Village88.com student, always follow clean coding</p>
               <h3>Leave reply</h3>
-              <form id=”reply” action=”process.php” method=”post”>
-                     <textarea name=”reply” class=”reply_message”></textarea>
-                     <input type=”submit” value=”Save”/>
+              <form id="reply" action="process.php" method="post">
+                     <textarea name="reply" class="reply_message"></textarea>
+                     <input type="submit" value="Save"/>
               </form>
           </div>
      </div>
@@ -221,7 +221,7 @@ Common errors in validation are related to label and placeholder attributes. For
 
 **Bad Coding:**
 ```html
-<div id=”header” style=”border:1px solid #000; margin-top: 15px;”></div>
+<div id="header" style="border:1px solid #000; margin-top: 15px;"></div>
 ```
 
 ***13) For reserved characters in HTML, visit http://www.w3schools.com/tags/ref_entities.asp. These can be used for symbols like » (&raquo).***
@@ -340,10 +340,10 @@ body {
 
 **HTML Code:**
 ```html
-<div id=”wrapper”>
-     <div id=”header”></div>
-     <div id=”navigation”></div>
-     <div class=”clear”></div>
+<div id="wrapper">
+     <div id="header"></div>
+     <div id="navigation"></div>
+     <div class="clear"></div>
 </div>
 ```
 
@@ -389,9 +389,9 @@ body {
 **Example (HTML code):**
 ```html
 <ul>
-     <li><a href=”“>Home</a></li>
-     <li><a href=”“>Profile</a></li>
-     <li><a href=”“>Logout</a></li>
+     <li><a href="">Home</a></li>
+     <li><a href="">Profile</a></li>
+     <li><a href="">Logout</a></li>
 </ul>
 ```
 
