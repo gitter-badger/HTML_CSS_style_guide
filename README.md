@@ -1,6 +1,8 @@
 Pointers to Remember When Coding HTML:
 =====================================
 
+[![Join the chat at https://gitter.im/nkkollaw/HTML_CSS_style_guide](https://badges.gitter.im/nkkollaw/HTML_CSS_style_guide.svg)](https://gitter.im/nkkollaw/HTML_CSS_style_guide?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ***1) Indent your html codes properly, consider parent-child relationship, (use tabs for indention).***
 
 In the example below, notice how img, h1, ul are indented inside their parent element (div#header). Same concept applies to the li's of ul.
